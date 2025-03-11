@@ -1,0 +1,25 @@
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between fields */
+    margin-bottom: 20px;
+}
+
+.form-field {
+    flex: 1; /* Allows fields to grow and shrink equally */
+    min-width: 150px; /* Minimum width for fields */
+}
+
+textarea {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+}
+
+input[type="file"] {
+    margin-top: 10px; /* Space above the file input */
+}
+
+button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px 20px;
+}
