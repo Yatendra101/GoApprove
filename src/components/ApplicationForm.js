@@ -40,6 +40,7 @@ const ApplicationForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
+        <h2> Welcome! Enter Your Details </h2> 
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required />
             <input type="text" value={qualification} onChange={(e) => setQualification(e.target.value)} placeholder="Qualification" required />
             <input type="number" value={age} onChange={(e) => setAge(e.target.value)} placeholder="Age" required />
