@@ -40,7 +40,7 @@ input[type="file"] {
 }
 
 /* Button Styles */
-button {
+button.submit {
     margin-top: 15px;
     padding: 12px 20px;
     background-color: #007bff;
